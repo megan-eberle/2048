@@ -1,0 +1,52 @@
+
+h1 {
+  text-align: center;
+  color: #3d3d3d;
+}
+p {
+  text-align: center;
+  color: #3d3d3d;
+}
+
+body {
+  background-color:#474747;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 25px;
+  color: #3d3d3d;
+  font-size: 20px;
+}
+
+.rules {
+  margin-top: 80px;
+  text-align: center;
+  background-color: #dae7da;
+  border-radius: 25px;
+  width: 65%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right:auto;
+  padding: 30px;
+
+  box-shadow: 0px 0px 100px -30px #fafaff;
+}
+
+.ruleTitle {
+  background-color: #838f83;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right:auto;
+  width: 250px;
+  height: 65px;
+}
+
+.closeButton {
+  font-weight: bold;
+  background-color: #83af83;
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+  right: 10px;
+  float: right;
+  color: #3d3d3d;
+}

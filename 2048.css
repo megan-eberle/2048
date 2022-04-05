@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #474747;
+}
+
+hr {
+  width: 500px;
+}
+
+#board {
+  width: 400px;
+  height: 400px;
+
+  background-color: #3d3d3d;
+  border: 6px solid #242424;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  box-shadow: 0px 0px 100px -30px #fafaff;
+}
+
+/* Empty Tiles */
+.tile {
+  width: 90px;
+  height: 90px;
+  background-color: #d0d6dc;
+  border: 5px solid #242424;
+  border-radius: 10px;
+
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Numbered Tiles & Colors */
+.t2 {
+  background-color: #dae7da;
+  color: #333;
+}
+
+.t4 {
+  background-color: #c1d7c1;
+  color: #333;
+}
+
+.t8 {
+  background-color: #9faf9f;
+  color: #333;
+}
+
+.t16 {
+  background-color: #818f81;
+  color: #333;
+}
+
+.t32 {
+  background-color: #606b60;
+  color: #333;
+}
+
+.t64 {
+  background-color: #2cbfe4;
+  color: #fcfcfc;
+}
+
+.t128 {
+  background-color: #0359aa;
+  color: #fcfcfc;
+}
+
+.t256 {
+  background-color: #dae7da;
+  color: #333;
+}
+
+.t512 {
+  background-color: #dae7da;
+  color: #333;
+}
+
+.t1024 {
+  background-color: #dae7da;
+  color: #333;
+}
+
+.t2048 {
+  background-color: #dae7da;
+  color: #333;
+}
+
+.t4096 {
+  background-color: #dae7da;
+  color: #333;
+}
+
+.rulesButton {
+  background-color: #83af83;
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+  right: 10px;
+  float: right;
+  font-weight: bold;
+  color: #333;
+}
